@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio-html-js</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Consegue fazer o numero B ser maior que A?</h2>
+        <form id="form-campos">
+            <label for="campoA">Campo A</label>
+            <input type="number" placeholder="Digite um número" id="campoA" required>
+            <label for="campoB">Campo B</label>
+            <input type="number" placeholder="Digite um número maior" id="campoB" required>
+            <button type="submit" id="animate_confetti">Comparar</button>
+        </form>
+        <div class="success-message">
+            <img src="./images/Eu sabo muito.jpeg" alt="Manja demais tu é doidoo">
+            <p>Manja demais tu é doidoo</p>
+        </div>
+        <div class="error-message">
+            <img src="./images/gato triste.jpeg" alt="achei que você ia acertar ">
+            <p>Achei que você ia acertar</p>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+</body>
+</html>
